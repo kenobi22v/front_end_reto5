@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Front Final</title>
+<meta charset="utf-8">
+<meta name="description" content="Este es un documento HTML5">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="css/fondo.css">
+<link rel="stylesheet" href="css/tablas.css">
+<link rel="stylesheet" href="css/texto.css">
+<link rel="stylesheet" href="css/estilos.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script type="text/javascript" src="js/misFuncionesClientes.js"></script>  
+</head>
+
+<body>
+
+    <div class="padre1">
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <h1>Bike Rentals</h1>
+                </div>
+                <nav class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="reportes.html">Reportes</a>
+                    <a href="categorias.html">Categorias</a>
+                    <a href="mensajes.html">Mensajes</a>
+                    <a href="reservaciones.html">Reservaciones</a>
+                    <a href="bike.html">Bicicletas</a>
+                </nav>
+            </div>
+        </header>
+        <div class="capa"></div>
+        <h1>Clientes</h1>
+        <br>
+        <br>
+<div class="padre2">
+    <input type="text" class="form-control" id="Clemail" placeholder="email">
+    <br><br>
+    <input type="text" class="form-control" id="Clpassword" placeholder="password">
+    <br><br>
+    <input type="text" class="form-control" id="Clname" placeholder="nombre">
+    <br><br>
+    <input type="number" class="form-control" id="Clage" placeholder="edad">
+    <br><br>
+</div>
+<div class="padre3">
+    <button onclick="guardarInformacionCliente()" class="btn btn-success">Guardar Cliente</button>
+    <div id="resultado3"></div>
+    <script type="text/javascript"> 
+    window.onload = autoInicioCliente();
+    </script>
+</div>
+
+
+  
+</body>
+</html>

@@ -1,0 +1,13 @@
+body{
+    margin: auto;
+    background-image: url(../img/close-up-man-riding-bicycle.jpg);
+    background-size: 100%;
+    padding: 60px;
+}
+
+.padre2:hover{
+    background-color: rgba(255, 255, 255, 0.233);
+    padding-bottom: 20px;
+}
+
+
